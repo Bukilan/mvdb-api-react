@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto-Light.ttf');
+}
+
+.header{
+    background-color: #000;
+    display: block;
+    padding-left: 16px;
+    font-family: Roboto, serif;
+}
+
+.header-name {
+    position: relative;
+    padding-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+}
+
+
+.genre-form{
+    position: relative;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    background-color: #000;
+    bottom: 3px;
+    color: white;
+    width: 400px;
+    height: 31px;
+    z-index: 3;
+}
+
+.genre-button {
+    position: relative;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    background-color: #000;
+    color: white;
+    border-color: black;
+    border-width: 3px;
+    width: 60px;
+    height: 25px;
+    bottom: 3px;
+}
+
